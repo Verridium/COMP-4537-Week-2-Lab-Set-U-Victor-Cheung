@@ -1,0 +1,46 @@
+use('test')
+
+// db.unicorns.find(
+//   {
+//     //selection 
+//     "gender": "m"
+//   },{
+//     //projection 
+//     name:   1,
+//     gender: 0,
+//     _id: 0
+//   }
+// )
+
+// // This returns any unicorn who loves 'apples or 'carrots'.
+
+// db.unicorns.find({
+//     $or: [
+//       {
+//         loves : {$in : ["appple", "carrots"]}
+//       },
+//       {
+//         loves : {$in : ["carrots"]}
+//       }
+//     ]
+//   }).count()
+
+// db.unicorns.update({name: 'Roooooodles'},
+// 	{weight: 590})
+
+// db.unicorns.update(
+//   {name: 'Roooooodles'},
+//   {$set: {weight: 590}},
+//   {upsert: true}
+// )
+
+// db.unicorns.find({_id: ObjectId{"632b30343df775b1f736a321"}})
+
+// db.unicorns.find().sort(
+//   {dob: -1}
+// )
+
+// db.unicorns.find({
+//   "dob" : ISODate("2001-10-08T21:00:000Z")
+// })
+
